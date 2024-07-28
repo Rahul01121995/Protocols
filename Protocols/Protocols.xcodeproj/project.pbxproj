@@ -13,6 +13,8 @@
 		3000A9FA2C5522E200B7D898 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3000A9F92C5522E200B7D898 /* Base */; };
 		3000A9FC2C5522E300B7D898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3000A9FB2C5522E300B7D898 /* Assets.xcassets */; };
 		3000A9FF2C5522E300B7D898 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3000A9FE2C5522E300B7D898 /* Base */; };
+		3000AA072C567D8900B7D898 /* TestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000AA062C567D8900B7D898 /* TestProtocol.swift */; };
+		3000AA092C567DF200B7D898 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000AA082C567DF200B7D898 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3000A9FB2C5522E300B7D898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3000A9FE2C5522E300B7D898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3000AA002C5522E300B7D898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3000AA062C567D8900B7D898 /* TestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProtocol.swift; sourceTree = "<group>"; };
+		3000AA082C567DF200B7D898 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				3000A9F22C5522E200B7D898 /* AppDelegate.swift */,
 				3000A9F42C5522E200B7D898 /* SceneDelegate.swift */,
 				3000A9F62C5522E200B7D898 /* ViewController.swift */,
+				3000AA082C567DF200B7D898 /* SecondViewController.swift */,
 				3000A9F82C5522E200B7D898 /* Main.storyboard */,
 				3000A9FB2C5522E300B7D898 /* Assets.xcassets */,
 				3000A9FD2C5522E300B7D898 /* LaunchScreen.storyboard */,
 				3000AA002C5522E300B7D898 /* Info.plist */,
+				3000AA062C567D8900B7D898 /* TestProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				3000A9F72C5522E200B7D898 /* ViewController.swift in Sources */,
 				3000A9F32C5522E200B7D898 /* AppDelegate.swift in Sources */,
 				3000A9F52C5522E200B7D898 /* SceneDelegate.swift in Sources */,
+				3000AA092C567DF200B7D898 /* SecondViewController.swift in Sources */,
+				3000AA072C567D8900B7D898 /* TestProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
