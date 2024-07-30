@@ -12,7 +12,6 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var dataTextField: UITextField!
     
     var delegate: myProtocol? = nil
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
